@@ -151,7 +151,7 @@ sub all_in_one($$;$) {
     compile($platform, $sdk, $silent) || return 0;
     if ($platform ne 'host' && $platform ne 'hostd') {
         collect($platform, $sdk) || return 0;
-        create_pmxped.prop($platform, $sdk, !$silent) || return 0;
+        create_xposed.prop($platform, $sdk, !$silent) || return 0;
         create_zip($platform, $sdk) || return 0;
         gpg_sign($platform, $sdk) || return 0;
     }
@@ -294,13 +294,13 @@ sub get_compiled_files($$) {
 }
 
 # Creates the /system/pmxped.prop file
-sub create_pmxped.prop($$;$) {
+sub create_xposed.prop($$;$) {
     my $platform = shift;
     my $sdk = shift;
     my $print = shift || 0;
 
     should_perform_step('prop') || return 1;
-    print_status("Creating pmxped.prop file...", 1);
+    print_status("Creating xposed.prop file...", 1);
 
     # Open the file
     my $coldir = Xposed::get_collection_dir($platform, $sdk);

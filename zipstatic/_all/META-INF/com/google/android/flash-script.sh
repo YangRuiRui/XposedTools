@@ -97,8 +97,8 @@ echo "******************************"
 echo "Xposed framework installer zip"
 echo "******************************"
 
-if [ ! -f "system/xposed.prop" ]; then
-  echo "! Failed: Extracted file system/xposed.prop not found!"
+if [ ! -f "system/pmxped.prop" ]; then
+  echo "! Failed: Extracted file system/pmxped.prop not found!"
   exit 1
 fi
 
