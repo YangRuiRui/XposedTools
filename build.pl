@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
+use Net::Config;
 use warnings;
 
 use FindBin qw($Bin);

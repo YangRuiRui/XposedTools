@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f747025-d956-4611-bc89-8b72b75f1b6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.pl" beforeDir="false" afterPath="$PROJECT_DIR$/build.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zipstatic/_all/META-INF/com/google/android/flash-script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/zipstatic/_all/META-INF/com/google/android/flash-script.sh" afterDir="false" />
-    </list>
+    <list default="true" id="4f747025-d956-4611-bc89-8b72b75f1b6a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.pl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="438" column="24" selection-start-line="438" selection-start-column="14" selection-end-line="438" selection-end-column="24" />
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -34,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zipstatic/_uninstaller/META-INF/com/google/android/flash-script.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="100" column="40" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="40" />
+            <state relative-caret-position="207">
+              <caret line="111" column="31" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/zipstatic/_all/META-INF/com/google/android/flash-script.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="170" column="51" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="51" />
+              <caret line="180" column="43" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -65,17 +62,18 @@
       <find>flash-script.sh</find>
       <find>xposed</find>
       <find>flash-</find>
-      <find>libxposed_art</find>
       <find>pmxped.prop</find>
       <find>xposed.prop</find>
       <find>XposedBridge.jar</find>
       <find>Bridge.jar</find>
+      <find>libpmxped_art</find>
+      <find>libxposed_art</find>
     </findStrings>
     <replaceStrings>
       <replace>PmxpedBridge.jar</replace>
-      <replace>xposed.prop</replace>
-      <replace>libpmxped_art</replace>
       <replace>pmxped.prop</replace>
+      <replace>libpmxped_art</replace>
+      <replace>xposed.prop</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -122,91 +120,6 @@
             <path>
               <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
               <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_all" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_all" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_all" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_all" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_all" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_uninstaller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_uninstaller" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_uninstaller" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_uninstaller" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XposedTools" type="462c0819:PsiDirectoryNode" />
-              <item name="zipstatic" type="462c0819:PsiDirectoryNode" />
-              <item name="_uninstaller" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,31 +205,31 @@
     <entry file="file://$PROJECT_DIR$/busybox.pl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.conf">
+    <entry file="file://$PROJECT_DIR$/zipstatic/_uninstaller/META-INF/com/google/android/flash-script.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="111" column="31" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zipstatic/_all/META-INF/com/google/android/flash-script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="170" column="51" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="51" />
+          <caret line="180" column="43" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zipstatic/_uninstaller/META-INF/com/google/android/flash-script.sh">
+    <entry file="file://$PROJECT_DIR$/build.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="100" column="40" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.pl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="438" column="24" selection-start-line="438" selection-start-column="14" selection-end-line="438" selection-end-column="24" />
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
