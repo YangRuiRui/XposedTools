@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use Net::Config;
+use strict;
 use warnings;
 
 use FindBin qw($Bin);
@@ -151,7 +151,7 @@ sub all_in_one($$;$) {
     compile($platform, $sdk, $silent) || return 0;
     if ($platform ne 'host' && $platform ne 'hostd') {
         collect($platform, $sdk) || return 0;
-        create_xposed.prop($platform, $sdk, !$silent) || return 0;
+        create_xposed_prop($platform, $sdk, !$silent) || return 0;
         create_zip($platform, $sdk) || return 0;
         gpg_sign($platform, $sdk) || return 0;
     }
@@ -294,7 +294,7 @@ sub get_compiled_files($$) {
 }
 
 # Creates the /system/pmxped.prop file
-sub create_xposed.prop($$;$) {
+sub create_xposed_prop($$;$) {
     my $platform = shift;
     my $sdk = shift;
     my $print = shift || 0;
